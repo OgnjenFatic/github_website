@@ -5,7 +5,7 @@
 <head>
 
     <title>Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +17,43 @@
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
     </p>
 
-<img src="torta.png" alt="cake">
+
+
+    <div class="game-container">
+        <!-- Static cake image -->
+        <img src="torta.png" alt="Cake with Candles" class="cake-image">
+
+        <!-- Flames (positioned absolutely on top of the cake) -->
+        <div class="flame" style="top: 25px; left: 147px;"></div>
+        <div class="flame" style="top: 11px; left: 209px;"></div>
+        <div class="flame" style="top: 7px; left: 279px;"></div>
+        <div class="flame" style="top: 0px; left: 343px;"></div>
+        <div class="flame" style="top: 6px; left: 407px;"></div>
+        <div class="flame" style="top: 28px; left: 470px;"></div>
+        <div class="flame" style="top: 47px; left: 532px;"></div>
+        <div class="flame" style="top: 58px; left: 186px;"></div>
+        <div class="flame" style="top: 58px; left: 250px;"></div>
+        <div class="flame" style="top: 65px; left: 314px;"></div>
+        <div class="flame" style="top: 62px; left: 368px;"></div>
+        <div class="flame" style="top: 62px; left: 423px;"></div>
+        <div class="flame" style="top: 72px; left: 111px;"></div>
+        <div class="flame" style="top: 102px; left: 157px;"></div>
+        <div class="flame" style="top: 115px; left: 216px;"></div>
+        <div class="flame" style="top: 124px; left: 267px;"></div>
+        <div class="flame" style="top: 133px; left: 325px;"></div>
+        <div class="flame" style="top: 124px; left: 395px;"></div>
+        <div class="flame" style="top: 115px; left: 465px;"></div>
+        <div class="flame" style="top: 93px; left: 509px;"></div>
+        
+    </div>
+
+    <div class="timer">Time: <span id="time">0.00</span>s</div>
+    <div class="best-time">Best Time: <span id="best-time">--</span></div>
+    <button id="start">Start</button>
+    <button id="restart">Restart</button>
+
+    <script src="script.js"></script>
+
 
 
 </body>
