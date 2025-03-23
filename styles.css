@@ -3,12 +3,14 @@ p {
     border-radius : 5px;
     padding : 35px;
     box-shadow : 5px 5px #888888;
+    background-color: #ffffff;
 }
 
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f9f9f9;
+    background-image: url('pozadina.webp');
     margin: 0;
     padding: 0;
 }
